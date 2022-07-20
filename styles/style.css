@@ -26,13 +26,12 @@ header{
     margin-top: -15px;
     line-height: 26px;
 }
-button{
+.header-btn{
     color: #FFFFFF;
     background: #DD0000;
     border-radius: 5px;
     padding: 16px 25px 17px 25px;
     margin-top: 15px;
-    outline: none;
     border: none;
 }
 button i{
@@ -43,4 +42,82 @@ button i{
     height: 600px;
     margin-top: 33px;
     margin-left: 75px;
+    vertical-align: bottom;
+}
+/* style for play groups */
+.play-groups{
+    justify-content: flex-start;
+    margin-top: 130px;
+}
+.left-sidebar{
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-sidebar button a{
+    text-decoration: none;
+}
+.left-sidebar button{
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+    margin-top: 30px;
+    border: none;
+}
+.left-sidebar .btn3{
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+}
+.blog{
+    margin-left: 24px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.blog img{
+    width: 312px;
+    height: 175px;
+}
+.play-detail{
+    padding: 20px;
+}
+.play-detail button{
+    background-color: transparent;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 8px 24px;
+}
+.play-detail h3{
+    font-weight: 600;
+    font-size: 1.17vw;
+    line-height: 27px;
+    color: #161616;
+}
+.blog-info{
+    display: flex;
+}
+.clock{
+    display: flex;
+}
+.comment{
+    display: flex;
+    padding-left: 30px;
+}
+.time{
+    margin-left: 10px;
+    padding-bottom: -23px;
+    margin-top: -4px
 }
